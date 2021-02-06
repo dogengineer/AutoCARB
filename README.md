@@ -16,4 +16,4 @@ ingresso del convergente.
 
 Il programma riesce a calcolare il fattore di attrito, simulando in maniera quasi perfetta il diagramma di Moody.
 
-L'applicazione è [scaricabile a questo indirizzo](releases/)
+L'applicazione è [scaricabile a questo indirizzo](https://github.com/dogengineer/DiagrammaDiMoody/releases/)
