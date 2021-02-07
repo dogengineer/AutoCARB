@@ -13,11 +13,11 @@ ingresso del convergente.
 
 Il programma riesce a calcolare il fattore di attrito, simulando in maniera quasi perfetta il diagramma di Moody.
 
-L'applicazione è [scaricabile a questo indirizzo](https://github.com/dogengineer/DiagrammaDiMoody/releases/)
+L'applicazione è [scaricabile a questo indirizzo](https://github.com/dogengineer/AutoCARB/releases/)
 
 ## Installazione
 
-Andando alla [pagina di download](https://github.com/dogengineer/DiagrammaDiMoody/releases/) è possibile scaricare due versioni del programma.
+Andando alla [pagina di **Download**](https://github.com/dogengineer/AutoCARB/releases/) è possibile scaricare due versioni del programma.
 
 ### 1. **AutoCARB_win_installer.zip**
 Questa versione scarica e installa tutto il software necessario (Matlab) sul vostro computer e rende l'applicazione disponibile e funzionante. Questa è la versione consigliata per gli utenti meno esperti.
@@ -40,7 +40,10 @@ Il codice dell'applicazione verrà reso disponibile non appena quest'ultima sar�
 ## Contributors
 
 [Davide Maieron](https://www.linkedin.com/in/davide-maieron-3757851bb/): lead programmer and engineer
+
 [Roberta Carlevaris](https://www.instagram.com/robzilla.tattoo/): chief artist and designer
+
+[antipatico](https://github.com/antipatico) git wizard
 
 ## Licenza
 
