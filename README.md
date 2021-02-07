@@ -1,6 +1,6 @@
 # AutoCARB
 
-![splash](splash.png)
+![anteprima](anteprima.png)
 
 Quest'applicazione verifica la carburazione tramite un metodo analitico, il quale prende in considerazione le seguenti ipotesi:
 1. Si trascurano gli effetti dinamici, assumendo il flusso d'aria e il flusso di benzina stazionari.
