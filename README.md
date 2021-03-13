@@ -34,7 +34,7 @@ Questa è una versione _lightweight_ del programma, che richiede come prerequisi
 
 ## Manuale di Utilizzo
 
-Il manuale di istruzioni per una perfetta carburazione, è disponibile a [questo indirizzo](https://github.com/dogengineer/AutoCARB/blob/main/Manuale_di_AutoCARB_2_0.pdf).
+Il manuale di istruzioni per una perfetta carburazione, è disponibile a [questo indirizzo](https://github.com/dogengineer/AutoCARB/blob/main/Manuale_di_AutoCARB.pdf).
 
 
 ## Contributors
