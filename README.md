@@ -13,7 +13,7 @@ Quest'applicazione verifica la carburazione mediante un modello analitico, il qu
 Il modello matematico si basa principalmente sulla teoria degli ugelli, nella quale si considera l'aria come un gas perfetto soggetto a trasformazioni adiabatiche.
 La stima del calore specifico dell'aria a pressione costante avviene tramite le "tabelle di Janaf".
 
-La benzina invece, viene considerata un fluido incomprimibile, tale ipotesi seppur sia un'approssimazione, è coerente con la natura fisica del fluido in esame.   
+La benzina invece, viene considerata come un fluido incomprimibile, tale ipotesi seppur sia un'approssimazione, è coerente con la natura fisica del fluido in esame.   
  
 Per quanto riguarda le perdite distribuite il programma riesce a calcolare il fattore di attrito, simulando in maniera quasi perfetta il diagramma di Moody.
 
