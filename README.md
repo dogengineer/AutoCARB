@@ -4,21 +4,24 @@
 
 Quest'applicazione verifica la carburazione mediante un modello analitico, il quale prende in considerazione le seguenti ipotesi:
 1. Si trascurano gli effetti dinamici, assumendo il flusso d'aria e il flusso di benzina stazionari.
-Gli effetti dinamici sono dati dalla periodica aspirazione di carica fresca operata da ogni
-cilindro, il flusso può essere instazionario anche in condizioni di regime e carico costanti.
-2. Con la nuova versione del software l'ipotesi fluido incomprimibile viene utilizzata solo per la benzina, l'aria invece la si considera come un gas ideale.
+    Gli effetti dinamici sono dati dalla periodica aspirazione di carica fresca operata da ogni
+    cilindro, il flusso può essere instazionario anche in condizioni di regime e carico costanti.
+2. Con la nuova versione del software l'ipotesi fluido incomprimibile viene utilizzata solo per la benzina, l'aria invece la si considera come un gas perfetto.
 3. Si trascurano le perdite di carico e gli scambi di calore con le pareti fino alla sezione di ingresso del convergente.
-4. Si considera `Cc<Cd` .
+4. Si considera `Cc<Cd`, le quali sono la velocità in ingresso e la velocità in uscita dal getto del massimo.
 
 Il modello matematico si basa principalmente sulla teoria degli ugelli, nella quale si considera l'aria come un gas perfetto soggetto a trasformazioni adiabatiche.
 La stima del calore specifico dell'aria a pressione costante avviene tramite le "tabelle di Janaf".
 
-La benzina invece, come nella passata versione, viene ancora considerata un fluido incomprimibile, tale ipotesi seppur sia un'approssimazione è coerente con la natura fisica del fluido in esame.   
+La benzina invece, come nella passata versione, viene ancora considerata un fluido incomprimibile, tale ipotesi seppur sia un'approssimazione, è coerente con la natura fisica del fluido in esame.   
  
 Per quanto riguarda le perdite distribuite il programma riesce a calcolare il fattore di attrito, simulando in maniera quasi perfetta il diagramma di Moody.
 
-Infine si considerano le perdite di carico (distribuite e concentrate) calcolando il coefficiente di efflusso, il quale in aggiunta ci fornisce il contributo dato dalla contrazione della vena fluida.
-Per approfondire l'equazione del coefficiente di efflusso, leggete l'[articolo pubblicato su Matematicamente](https://www.matematicamente.it/forum/viewtopic.php?f=38&t=211382) e l'[articolo del professor S.L.Bragg dell’universit`a di Pittsburgh](https://journals.sagepub.com/doi/10.1243/JMES_JOUR_1960_002_007_02).
+Infine si considerano le perdite di carico (distribuite e concentrate) calcolando il coefficiente di efflusso, il quale in aggiunta ci fornisce il contributo dato dalla contrazione della vena fluida. 
+Voglio sottolineare che il coefficiente delle perdite concentrate "K", presente nell'equazione, è da utilissare "solo" se ci sono elementi di perdita aggiuntivi nell'ugello o condotto considerato, 
+non bisogna assolutamente inserire i coefficienti delle geometrie del convergente o del divergente, le quali vengono già implementate con i parametri geometrici presenti nella stessa (lunghezza e diametro). 
+Per approfondire l'equazione del coefficiente di efflusso della benzina che ho utilizzato nel modello, leggete l'articolo pubblicato su [Matematicamente](https://www.matematicamente.it/forum/viewtopic.php?f=38&t=211382).
+Mentre per quanto riguarda il coefficiente utilizzato per l'aria, faccio riferimento al modello per fluidi comprimibili e di moto sub critico descritto e dimostrato nell'[articolo del professor S.L.Bragg dell’universit`a di Pittsburgh](https://journals.sagepub.com/doi/10.1243/JMES_JOUR_1960_002_007_02).
 
 ## Installazione
 
