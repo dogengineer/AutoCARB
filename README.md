@@ -2,17 +2,23 @@
 
 ![anteprima](anteprima.png)
 
-Quest'applicazione verifica la carburazione tramite un metodo analitico, il quale prende in considerazione le seguenti ipotesi:
+Quest'applicazione verifica la carburazione mediante un modello analitico, il quale prende in considerazione le seguenti ipotesi:
 1. Si trascurano gli effetti dinamici, assumendo il flusso d'aria e il flusso di benzina stazionari.
 Gli effetti dinamici sono dati dalla periodica aspirazione di carica fresca operata da ogni
 cilindro, il flusso può essere instazionario anche in condizioni di regime e carico costanti.
-2. Si considera il fluido incomprimibile.
+2. Con la nuova versione del software l'ipotesi fluido incomprimibile viene utilizzata solo per la benzina, l'aria invece la si considera come un gas ideale.
 3. Si trascurano le perdite di carico e gli scambi di calore con le pareti fino alla sezione di ingresso del convergente.
 4. Si considera `Cc<Cd` .
 
-Il programma riesce a calcolare il fattore di attrito, simulando in maniera quasi perfetta il diagramma di Moody.
+Il modello matematico si basa principalmente sulla teoria degli ugelli, nella quale si considera l'aria come un gas perfetto soggetto a trasformazioni adiabatiche.
+La stima del calore specifico dell'aria a pressione costante avviene tramite le "tabelle di Janaf".
 
-Per approfondire il metodo analitico applicato, leggete l'[articolo pubblicato su Matematicamente](https://www.matematicamente.it/forum/viewtopic.php?f=38&t=211382).
+La benzina invece, come nella passata versione, viene ancora considerata un fluido incomprimibile, tale ipotesi seppur sia un'approssimazione è coerente con la natura fisica del fluido in esame.   
+ 
+Per quanto riguarda le perdite distribuite il programma riesce a calcolare il fattore di attrito, simulando in maniera quasi perfetta il diagramma di Moody.
+
+Infine si considerano le perdite di carico (distribuite e concentrate) calcolando il coefficiente di efflusso, il quale in aggiunta ci fornisce il contributo dato dalla contrazione della vena fluida.
+Per approfondire l'equazione del coefficiente di efflusso, leggete l'[articolo pubblicato su Matematicamente](https://www.matematicamente.it/forum/viewtopic.php?f=38&t=211382) e l'[articolo del professor S.L.Bragg dell’universit`a di Pittsburgh](https://journals.sagepub.com/doi/10.1243/JMES_JOUR_1960_002_007_02).
 
 ## Installazione
 
@@ -29,20 +35,16 @@ Questa è una versione _lightweight_ del programma, che richiede come prerequisi
 
 Il manuale di istruzioni per una perfetta carburazione, è disponibile a [questo indirizzo](https://github.com/dogengineer/AutoCARB/blob/main/Manuale.pdf).
 
-## Codice sorgente
-
-Al momento il codice sorgente per l'intera applicazione non è disponibile perché non completo.
-Parte della logica applicativa è disponibile negli script presenti nella cartella
-[sources](sources).
-Il codice dell'applicazione verrà reso disponibile non appena quest'ultima sarà completata.
 
 ## Contributors
 
-[Davide Maieron](https://www.linkedin.com/in/davide-maieron-3757851bb/): lead programmer and engineer
+[Ing. Davide Maieron](https://www.linkedin.com/in/davide-maieron-3757851bb/) lead programmer and engineer
 
-[Roberta Carlevaris](https://www.instagram.com/robzilla.tattoo/): chief artist and designer
+[Ing. Adriano Mazzola](https://www.linkedin.com/in/adriano-mazzola/) engineering consultant 
 
-[antipatico](https://github.com/antipatico) git wizard
+[Roberta Carlevaris](https://www.instagram.com/robzilla.tattoo/) chief artist and designer
+
+[antipatico](https://github.com/antipatico) git wizard and computer master
 
 ## Licenza
 
