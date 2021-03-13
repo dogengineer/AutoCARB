@@ -19,7 +19,7 @@ Per quanto riguarda le perdite distribuite il programma riesce a calcolare il fa
 
 Infine si considerano le perdite di carico (distribuite e concentrate) calcolando il coefficiente di efflusso, il quale in aggiunta ci fornisce il contributo dato dalla contrazione della vena fluida. 
 Per approfondire l'equazione del coefficiente di efflusso della benzina che ho utilizzato nel modello, leggete l'articolo pubblicato su [Matematicamente](https://www.matematicamente.it/forum/viewtopic.php?f=38&t=211382).
-Mentre per quanto riguarda il coefficiente utilizzato per l'aria, faccio riferimento al modello per fluidi comprimibili e di moto sub critico descritto e dimostrato nell'[articolo del professor S.L.Bragg dell’universit`a di Pittsburgh](https://journals.sagepub.com/doi/10.1243/JMES_JOUR_1960_002_007_02).
+Mentre per quanto riguarda il coefficiente utilizzato per l'aria, faccio riferimento al modello per fluidi comprimibili e di moto sub critico descritto e dimostrato nell'[articolo](https://journals.sagepub.com/doi/10.1243/JMES_JOUR_1960_002_007_02) del professor S.L.Bragg dell’università di Pittsburgh.
 
 ## Installazione
 
@@ -34,7 +34,7 @@ Questa è una versione _lightweight_ del programma, che richiede come prerequisi
 
 ## Manuale di Utilizzo
 
-Il manuale di istruzioni per una perfetta carburazione, è disponibile a [questo indirizzo](https://github.com/dogengineer/AutoCARB/blob/main/Manuale.pdf).
+Il manuale di istruzioni per una perfetta carburazione, è disponibile a [questo indirizzo](https://github.com/dogengineer/AutoCARB/blob/main/Manuale_di_AutoCARB_2_0.pdf).
 
 
 ## Contributors
