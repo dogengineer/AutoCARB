@@ -21,15 +21,22 @@ Infine si considerano le perdite di carico (distribuite e concentrate) calcoland
 Per approfondire l'equazione del coefficiente di efflusso della benzina che ho utilizzato nel modello, leggete l'articolo pubblicato su [Matematicamente](https://www.matematicamente.it/forum/viewtopic.php?f=38&t=211382).
 Mentre per quanto riguarda il coefficiente utilizzato per l'aria, faccio riferimento al modello per fluidi comprimibili e di moto sub critico descritto e dimostrato nell'[articolo](https://journals.sagepub.com/doi/10.1243/JMES_JOUR_1960_002_007_02) del professor S.L.Bragg dell’università di Pittsburgh.
 
+
 ## Installazione
 
-Andando alla [pagina di **Download**](https://github.com/dogengineer/AutoCARB/releases/) è possibile scaricare due versioni del programma.
+Andando alla [pagina di **Download**](https://github.com/dogengineer/AutoCARB/releases/) è possibile scegliere tali versioni del programma.
 
-### 1. **AutoCARB_win_installer.zip**
+### 1. **AutoCARB_NUM_win_installer.zip**
 Questa versione scarica e installa tutto il software necessario (Matlab) sul vostro computer e rende l'applicazione disponibile e funzionante. Questa è la versione consigliata per gli utenti meno esperti.
 
-### 2. **AutoCARB_win.zip**
+### 2. **AutoCARB_NUM_win.zip**
 Questa è una versione _lightweight_ del programma, che richiede come prerequisito l'installazione del [**runtime Matlab R2020b**](https://it.mathworks.com/products/compiler/matlab-runtime.html). Consigliata ad utenti più esperti.
+
+### 3. **AutoCARB_NUM_linux_installer.zip** 
+Per installare questa versione, occore avere una buona dimestichezza con linux, perché dovete effettuare qualche modifica e avviarla dal terminale. 
+
+### 4. **AutoCARB_NUM_linux.zip**
+Le operazioni di installazione sono del tutto simili a quelle della versione per Windows, tranne che dal medesimo link dovrete installare i runtime per linux.
 
 
 ## Manuale di Utilizzo
@@ -46,6 +53,7 @@ Il manuale di istruzioni per una perfetta carburazione, è disponibile a [questo
 [Roberta Carlevaris](https://www.instagram.com/robzilla.tattoo/) chief artist and designer
 
 [antipatico](https://github.com/antipatico) git wizard and computer master
+
 
 ## Licenza
 
